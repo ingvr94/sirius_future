@@ -3,7 +3,6 @@ import Header from '../scenes/header/Header'
 import Homework from '../assets/icons/Homework.png'
 import Report from '../assets/icons/Report.png'
 import Teacher from '../assets/icons/Teacher.png'
-import Discount from '../assets/Discount.png'
 
 function Home() {
   return (
@@ -13,7 +12,7 @@ function Home() {
       <div className='flex flex-col w-full'>
       <Header />
         <div className='grid grid-cols-[526px_344px_162px] gap-5 h-[248px] ml-8 mt-5'>
-          <div className={`bg-[#7362BC] rounded-[30px] py-[56px] pl-10 bg-[url(${Discount})] bg-right bg-no-repeat `}>
+          <div className={`bg-[#7362BC] rounded-[30px] py-[56px] pl-10 bg-discount bg-right bg-no-repeat `}>
             <div className='text-white text-h2 leading-8 mb-3'>
               До 31 декабря любой <br/>курс со скидкой 20%
             </div>
