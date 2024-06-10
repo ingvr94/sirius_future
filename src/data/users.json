@@ -5,11 +5,11 @@
         "profiles":[
             {
                 "name":"Михаил",
-                "icon":"sirius_future/src/assets/profile1.jpeg"
+                "icon":"../src/assets/profile1.jpeg"
             },
             {
                 "name":"Анна",
-                "icon":"sirius_future/src/assets/profile2.jpeg"
+                "icon":"../src/assets/profile2.jpeg"
             }
         ],
 
