@@ -5,6 +5,7 @@ import { logout } from '../../state/UserSlice'
 import XMark from '../../assets/icons/X.png'
 import Exit from '../../assets/icons/Exit.png'
 
+
 function Header() {
    
     const [modal,openModal]=useState<boolean>(false)

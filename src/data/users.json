@@ -1,14 +1,15 @@
+
 [
     {
         "id":1,
         "profiles":[
             {
                 "name":"Михаил",
-                "icon":"../../assets/profile1.jpeg"
+                "icon":"/assets/profile1.jpeg"
             },
             {
                 "name":"Анна",
-                "icon":"../../assets/profile2.jpeg"
+                "icon":"/assets/profile2.jpeg"
             }
         ],
 
