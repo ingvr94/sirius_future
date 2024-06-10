@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "profiles":[
+            {
+                "name":"Михаил",
+                "icon":"../src/assets/profile1.jpeg"
+            },
+            {
+                "name":"Анна",
+                "icon":"../src/assets/profile2.jpeg"
+            }
+        ],
+
+        "email":"admin@me.com",
+        "password":"admin"
+    }
+]
