@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ProfileType } from '../../types/Types'
 import {useDispatch} from 'react-redux'
 import { logout } from '../../state/UserSlice'
+import XMark from '../../assets/icons/X.png'
 
 
 function Header() {
@@ -34,7 +35,7 @@ function Header() {
             <div className='w-[250px] border-[1px] border-[#7362BC] rounded-xl absolute top-[68px] right-[290px] bg-white p-[30px] after:absolute after:-top-2 after:right-6 after:w-0 after:h-0 after:border-l-8 after:border-l-transparent after:border-r-8 after:border-r-transparent after:border-b-8 after:border-b-[#7362BC]' >
                 <img
                 onClick={()=>openModal(false)} 
-                className='absolute z-10 right-3 top-3 w-6 h-6 cursor-pointer' src="../src/assets/icons/X.png" alt="" />
+                className='absolute z-10 right-3 top-3 w-6 h-6 cursor-pointer' src={XMark} alt="" />
                 <div className='text-h5 text-dark-grey mb-3'>Смена пользователя</div>
                 <ul  className='gap-2 border-b pb-1'>
                 {currentUser.profiles.map((e:ProfileType,i:number)=>(
