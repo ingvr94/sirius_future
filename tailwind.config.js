@@ -33,13 +33,13 @@ export default {
         'body_lg':'18px'
       },
       backgroundImage:{
-        'gift_img':'url(../src/assets/gift illustration.png)',
-        'message':'url(../src/assets/Messages.png)',
-        'discount':'url(../src/assets/Discount.png)'
+        'gift_img':'url(../assets/gift illustration.png)',
+        'message':'url(../assets/Messages.png)',
+        'discount':'url(../assets/Discount.png)'
       },
       content:{
-        'arrow_down':'url(../src/assets/icons/Path.png)',
-        'arrow_down_sm':'url(../src/assets/icons/Arrow_sm.png)'
+        'arrow_down':'url(../assets/icons/Path.png)',
+        'arrow_down_sm':'url(../assets/icons/Arrow_sm.png)'
 
       }
     },

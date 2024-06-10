@@ -36,7 +36,7 @@ const CalendarGrid = ({startDay,startMonth}: Props) => {
                                     <div className='text-body_sm leading-4'>{lesson.time}</div>
                                     <div className='text-body_xsm'>{lesson.subject}</div>
                                 </div>
-                                {lesson.wallet &&<img className='w-4 h-4' src="../../src/assets/icons/Wallet_red.png" alt="" />}
+                                {lesson.wallet &&<img className='w-4 h-4' src="../assets/icons/Wallet_red.png" alt="" />}
                             </div>
                         </div>
 

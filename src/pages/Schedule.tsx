@@ -14,7 +14,7 @@ const Schedule = () => {
                         <select name="" id="" className=" appearance-none w-[253px] leading-4 text-body_sm flex py-3 px-[10px] border-[1px] border-[#ECECEC] items-center text-[#79747F]">
                             <option selected disabled>Выбрать предмет</option>
                         </select>
-                        <img className="absolute right-[10px] top-[10px]" src='../src/assets/icons/Arrow_sm.png' />
+                        <img className="absolute right-[10px] top-[10px]" src='../assets/icons/Arrow_sm.png' />
                     </div>
 
                     <button className="w-[344px] text-body_md text-dark-grey leading-5 bg-purple-200 flex items-center justify-center rounded-full py-[10px] ">Изменить расписание</button>
