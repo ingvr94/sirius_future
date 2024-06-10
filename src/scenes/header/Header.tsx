@@ -18,6 +18,8 @@ function Header() {
         dispatch(logout())
     }
 
+    console.log(currentUser.profiles[userIndex].icon)
+
   return (
     <>
         <div className='w-full rounded-b-2xl shadow-lg h-[68px] flex items-center justify-between pl-8 pr-[62px]'>
@@ -61,7 +63,6 @@ function Header() {
             </div>
         }
     </>
-
   )
 }
 
