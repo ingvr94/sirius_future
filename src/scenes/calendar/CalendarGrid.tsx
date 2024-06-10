@@ -1,5 +1,6 @@
 import * as moment from 'moment'
 import lessons from "../../data/lessons.json"
+import WalletRed from "../../assets/icons/Wallet_red.png"
 
 type Props = {
    startDay:moment.Moment
@@ -36,7 +37,7 @@ const CalendarGrid = ({startDay,startMonth}: Props) => {
                                     <div className='text-body_sm leading-4'>{lesson.time}</div>
                                     <div className='text-body_xsm'>{lesson.subject}</div>
                                 </div>
-                                {lesson.wallet &&<img className='w-4 h-4' src="../assets/icons/Wallet_red.png" alt="" />}
+                                {lesson.wallet &&<img className='w-4 h-4' src={WalletRed} alt="" />}
                             </div>
                         </div>
 
