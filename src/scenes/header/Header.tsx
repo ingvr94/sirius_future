@@ -28,7 +28,7 @@ function Header() {
                 </div>
             <div
             onClick={()=>openModal(!modal)} 
-            style={{backgroundImage:`url(${currentUser.profiles[userIndex].icon})` }}
+            style={{backgroundImage:currentUser.profiles[userIndex].icon}}
             className={`relative cursor-pointer rounded-full w-[42px] h-[42px] border-[1px] border-[#7362BC] after:content-arrow_down after:absolute after:w-6 after:h-6 after:-right-[30px] after:top-[6px] bg-cover bg-center`}></div>
             </div>
         </div>
