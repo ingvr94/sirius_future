@@ -2,9 +2,8 @@
 import Navbar from '../scenes/navbar/Navbar'
 import Header from '../scenes/header/Header'
 
-type Props = {}
 
-function Home({}: Props) {
+function Home() {
   return (
 
     <div className='flex'>
