@@ -3,8 +3,6 @@ import { ProfileType } from '../../types/Types'
 import {useDispatch} from 'react-redux'
 import { logout } from '../../state/UserSlice'
 import XMark from '../../assets/icons/X.png'
-import ArrowDown from '../../assets/icons/Arrow_sm.png'
-import Messages from '../../assets/Messages.png'
 import Exit from '../../assets/icons/Exit.png'
 
 function Header() {
