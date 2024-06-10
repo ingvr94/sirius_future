@@ -1,6 +1,9 @@
 import Navbar from '../scenes/navbar/Navbar'
 import Header from '../scenes/header/Header'
-
+import Homework from '../assets/icons/Homework.png'
+import Report from '../assets/icons/Report.png'
+import Teacher from '../assets/icons/Teacher.png'
+import Discount from '../assets/Discount.png'
 
 function Home() {
   return (
@@ -10,7 +13,7 @@ function Home() {
       <div className='flex flex-col w-full'>
       <Header />
         <div className='grid grid-cols-[526px_344px_162px] gap-5 h-[248px] ml-8 mt-5'>
-          <div className='bg-[#7362BC] rounded-[30px] py-[56px] pl-10 bg-discount bg-right bg-no-repeat '>
+          <div className={`bg-[#7362BC] rounded-[30px] py-[56px] pl-10 bg-[${Discount}] bg-right bg-no-repeat `}>
             <div className='text-white text-h2 leading-8 mb-3'>
               До 31 декабря любой <br/>курс со скидкой 20%
             </div>
@@ -30,11 +33,11 @@ function Home() {
           <div className='grid grid-row-2 gap-5'>
               <div className='bg-[#D8ECFF] rounded-[20px] px-4'>
                 <div className='leading-5 text-h4  pt-4'>Домашние <br/>задания</div>
-                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src={"../assets/icons/Homework.png"}  />
+                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src={Homework}  />
               </div>
               <div className='bg-[#E8CBFF] rounded-[20px] px-4'>
                 <div className='leading-5 text-h4 pt-4'>Отчеты<br/>от учителей</div>
-                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src={"../assets/icons/Report.png"}  />
+                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src={Report}  />
               </div>
           </div>
         </div>
@@ -69,7 +72,7 @@ function Home() {
                   <div className='text-body_md leading-5 w-[180px]'>Ментальная арифметика</div>
                   <div className='text-body_sm leading-[16.2px] w-[70px]'>14:00-14:25</div>
                   <div className='flex items-center'>
-                    <img className='w-4 h-4' src={"../assets/icons/Teacher.png"} />
+                    <img className='w-4 h-4' src={Teacher} />
                     <div className=' leading-3 text-body_sm font-light'>Белкина Инна</div>
                   </div>
                 </div>
@@ -87,7 +90,7 @@ function Home() {
                   <div className='text-body_md leading-5 w-[180px]'>Программирование</div>
                   <div className='text-body_sm leading-[16.2px] w-[70px] '>11:00-11:11</div>
                   <div className='flex items-center'>
-                    <img className='w-4 h-4' src={"../assets/icons/Teacher.png"} />
+                    <img className='w-4 h-4' src={Teacher} />
                     <div className=' leading-3 text-body_sm font-light'>Животновская Оксана</div>
                   </div>
                 </div>
@@ -105,7 +108,7 @@ function Home() {
                   <div className='text-body_md leading-5 w-[180px]'>Скорочтение</div>
                   <div className='text-body_sm leading-[16.2px] w-[70px]'>09:00-09:45</div>
                   <div className='flex items-center'>
-                    <img className='w-4 h-4' src={"../assets/icons/Teacher.png" }/>
+                    <img className='w-4 h-4' src={Teacher}/>
                     <div className=' leading-3 text-body_sm font-light'>Мин Елена</div>
                   </div>
                 </div>
