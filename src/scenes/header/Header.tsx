@@ -4,7 +4,6 @@ import {useDispatch} from 'react-redux'
 import { logout } from '../../state/UserSlice'
 import XMark from '../../assets/icons/X.png'
 import Exit from '../../assets/icons/Exit.png'
-import { current } from '@reduxjs/toolkit'
 
 
 function Header() {
