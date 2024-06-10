@@ -5,11 +5,11 @@
         "profiles":[
             {
                 "name":"Михаил",
-                "icon":"../src/assets/profile1.jpeg"
+                "icon":"/src/assets/profile1.jpeg"
             },
             {
                 "name":"Анна",
-                "icon":"../src/assets/profile2.jpeg"
+                "icon":"/src/assets/profile2.jpeg"
             }
         ],
 

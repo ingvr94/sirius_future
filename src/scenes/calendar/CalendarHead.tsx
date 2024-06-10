@@ -1,14 +1,16 @@
 
 import moment from 'moment'
+import ArrowLeft from '../../assets/icons/Arrow-Left.png'
+import ArrowRight from '../../assets/icons/Arrow-Right.png'
 
 
 const CalendarHead = () => {
   return (
     <div className='flex items-center'>
         <div className='flex items-center gap-4 mr-8'>
-            <img className='cursor-pointer' src="../assets/icons/Arrow-Left.png" alt="" />
+            <img className='cursor-pointer' src={ArrowLeft} alt="" />
             <div className='font-bold text-body_md leading-5 text-dark-grey'>{moment().format('MMMM YYYY')}</div>
-            <img className='cursor-pointer' src="../assets/icons/Arrow-Right.png" alt="" />
+            <img className='cursor-pointer' src={ArrowRight} alt="" />
         </div>
         <button className='py-2 px-4 rounded-full border-[1px] text-body_sm text-dark-grey border-[#8D7FC7] mr-4'>
             Cегодня
