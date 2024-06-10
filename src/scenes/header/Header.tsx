@@ -4,6 +4,7 @@ import {useDispatch} from 'react-redux'
 import { logout } from '../../state/UserSlice'
 import XMark from '../../assets/icons/X.png'
 import Exit from '../../assets/icons/Exit.png'
+import { current } from '@reduxjs/toolkit'
 
 
 function Header() {
@@ -11,6 +12,8 @@ function Header() {
     const [modal,openModal]=useState<boolean>(false)
     const [userIndex,setUserIndex]=useState<number>(0)
     const currentUser=JSON.parse(localStorage.getItem('user') || '"')
+
+    currentUser
 
     const dispatch=useDispatch()
 
@@ -28,7 +31,7 @@ function Header() {
                 </div>
             <div
             onClick={()=>openModal(!modal)} 
-            style={{backgroundImage:`${currentUser.profiles[userIndex].icon}`}}
+            style={{backgroundImage:currentUser.profiles[userIndex].icon}}
             className={`relative cursor-pointer rounded-full w-[42px] h-[42px] border-[1px] border-[#7362BC] after:content-arrow_down after:absolute after:w-6 after:h-6 after:-right-[30px] after:top-[6px] bg-cover bg-center`}></div>
             </div>
         </div>
