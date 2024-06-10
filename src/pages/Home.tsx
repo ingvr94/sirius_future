@@ -31,11 +31,11 @@ function Home() {
           <div className='grid grid-row-2 gap-5'>
               <div className='bg-[#D8ECFF] rounded-[20px] px-4'>
                 <div className='leading-5 text-h4  pt-4'>Домашние <br/>задания</div>
-                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src="../src/assets/icons/Homework.png"  />
+                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src={"../src/assets/icons/Homework.png"}  />
               </div>
               <div className='bg-[#E8CBFF] rounded-[20px] px-4'>
                 <div className='leading-5 text-h4 pt-4'>Отчеты<br/>от учителей</div>
-                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src="../src/assets/icons/Report.png"  />
+                <img className='w-10 h-10 rounded-full mt-[6px] ml-[94px]' src={"../src/assets/icons/Report.png"}  />
               </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ function Home() {
                   <div className='text-body_md leading-5 w-[180px]'>Ментальная арифметика</div>
                   <div className='text-body_sm leading-[16.2px] w-[70px]'>14:00-14:25</div>
                   <div className='flex items-center'>
-                    <img className='w-4 h-4' src="../src/assets/icons/Teacher.png" />
+                    <img className='w-4 h-4' src={"../src/assets/icons/Teacher.png"} />
                     <div className=' leading-3 text-body_sm font-light'>Белкина Инна</div>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ function Home() {
                   <div className='text-body_md leading-5 w-[180px]'>Программирование</div>
                   <div className='text-body_sm leading-[16.2px] w-[70px] '>11:00-11:11</div>
                   <div className='flex items-center'>
-                    <img className='w-4 h-4' src="../src/assets/icons/Teacher.png" />
+                    <img className='w-4 h-4' src={"../src/assets/icons/Teacher.png"} />
                     <div className=' leading-3 text-body_sm font-light'>Животновская Оксана</div>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ function Home() {
                   <div className='text-body_md leading-5 w-[180px]'>Скорочтение</div>
                   <div className='text-body_sm leading-[16.2px] w-[70px]'>09:00-09:45</div>
                   <div className='flex items-center'>
-                    <img className='w-4 h-4' src="../src/assets/icons/Teacher.png" />
+                    <img className='w-4 h-4' src={"../src/assets/icons/Teacher.png" }/>
                     <div className=' leading-3 text-body_sm font-light'>Мин Елена</div>
                   </div>
                 </div>
