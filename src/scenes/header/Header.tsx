@@ -5,9 +5,6 @@ import { logout } from '../../state/UserSlice'
 import XMark from '../../assets/icons/X.png'
 import Exit from '../../assets/icons/Exit.png'
 
-import Profile1 from '../../assets/profile1.jpeg'
-
-
 
 function Header() {
    
@@ -33,7 +30,7 @@ function Header() {
                 </div>
             <div
             onClick={()=>openModal(!modal)} 
-            style={{backgroundImage:`url(${Profile1})`}}
+            style={{backgroundImage:`url(/public/profile1.jpeg))`}}
             className={`relative cursor-pointer rounded-full w-[42px] h-[42px] border-[1px] border-[#7362BC] after:content-arrow_down after:absolute after:w-6 after:h-6 after:-right-[30px] after:top-[6px] bg-cover bg-center`}></div>
             </div>
         </div>
@@ -49,7 +46,7 @@ function Header() {
                     onClick={()=>setUserIndex(i)}
                     key={i} 
                     className={`flex items-center gap-2 p-2 cursor-pointer rounded-xl ${i==userIndex && 'bg-extra-light-violet'}`}>
-                        <img className={`w-8 h-8 rounded-full border-[1px] border-[#7362BC]`} src={`Profile${i+1}`} />
+                        <img className={`w-8 h-8 rounded-full border-[1px] border-[#7362BC]`} src={e.icon} />
                         <div>
                             <div className='text-body_sm text-dark-grey'>{e.name}</div>
                             {i==userIndex && <div className=' text-body_xsm text-dark-grey font-thin'>Это Вы</div>}
