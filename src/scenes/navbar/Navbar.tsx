@@ -12,7 +12,6 @@ import Folder from '../../assets/icons/folder-open.png'
 import HeadPhones from '../../assets/icons/Headphones, Customer, support.png'
 import Settings from '../../assets/icons/Settings.png'
 import Questions from '../../assets/icons/Questions.png'
-import Gift from '../../assets/gift illustration.png'
 
 const Navbar = () => {
 
