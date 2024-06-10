@@ -80,7 +80,7 @@ console.log(currentUrl)
                 </li>
                 
             </ul>
-            <div className={`bg-white relative w-[calc(100%-40px)] mt-[50px] rounded-[15px] pt-4 pb-[10px] pl-4 text-dark-grey bg-gift bg-no-repeat bg-right-bottom`}>
+            <div className={`bg-white relative w-[calc(100%-40px)] mt-[50px] rounded-[15px] pt-4 pb-[10px] pl-4 text-dark-grey bg-gift_img bg-no-repeat bg-right-bottom`}>
                 <div className="text-body_md">Учитесь бесплатно</div>
                 <div className="text-body_xsm">
                 Приводите друзей с детьми <br/>заниматься в Sirius Future <br/>
