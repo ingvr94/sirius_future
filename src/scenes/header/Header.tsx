@@ -3,7 +3,9 @@ import { ProfileType } from '../../types/Types'
 import {useDispatch} from 'react-redux'
 import { logout } from '../../state/UserSlice'
 import XMark from '../../assets/icons/X.png'
-
+import ArrowDown from '../../assets/icons/Arrow_sm.png'
+import Messages from '../../assets/Messages.png'
+import Exit from '../../assets/icons/Exit.png'
 
 function Header() {
    
@@ -55,7 +57,7 @@ function Header() {
                 onClick={()=>exitToLogin()}
                  className='flex justify-between text-primary mt-3 py-3 cursor-pointer'>
                     <div className='text-body_md'>Выход</div>
-                    <img className='w-6 h-6' src="../src/assets/icons/Exit.png" alt="" />
+                    <img className='w-6 h-6' src={Exit} alt="" />
                 </div>
             </div>
         }
