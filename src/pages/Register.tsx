@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { login } from "../state/UserSlice"
+import Logo from '../assets/Logo.png'
 
 
 const Register = () => {
@@ -20,7 +21,7 @@ const Register = () => {
     <div className='app container flex justify-center'>
         <div className=' flex items-center'>
             <div className='flex flex-col items-center ' >
-                <img className='w-[80px] h-[80px] ' src={"../src/assets/Logo.png"} alt="" />
+                <img className='w-[80px] h-[80px] ' src={Logo} alt="" />
                 <div className=' text-dark-grey text-h0 mt-8 mb-4'>
                     Вход в Sirius Future
                 </div>
